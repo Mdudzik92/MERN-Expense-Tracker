@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Backend for expense tracker",
   "main": "server.js",
-  "homepage": "http://gitname.github.io/react-gh-pages",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
@@ -12,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "http://gitname.github.io/react-gh-pages",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mdudzik92/MERN-Expense-Tracker.git"
